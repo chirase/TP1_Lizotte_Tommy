@@ -78,8 +78,8 @@ export class Introduction {
     }
 
     terminerIntro(evt) {
-        this.elmParent.firstChild.classList.add('deplacementContenuIntro')
-        this.elmParent.firstChild.addEventListener('animationend', this.passerVersAnimationSuivante.bind(this))
+        this.elmParent.firstElementChild.classList.add('deplacementContenuIntro')
+        this.elmParent.firstElementChild.addEventListener('animationend', this.passerVersAnimationSuivante.bind(this))
     }
 
     passerVersAnimationSuivante(evt) {

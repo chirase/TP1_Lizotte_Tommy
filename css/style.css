@@ -673,12 +673,12 @@ a:hover, a:active {
   display: flex;
 }
 
-.mot > div {
+.mot > span {
   font-size: 9vw;
   text-shadow: 6px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
-.mot:nth-child(1) > div {
+.mot:nth-child(1) > span {
   -webkit-animation: animationLettre 1s both;
           animation: animationLettre 1s both;
 }
