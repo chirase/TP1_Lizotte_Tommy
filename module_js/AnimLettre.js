@@ -32,7 +32,7 @@ export class AnimLettre {
            i++;
         let lettreElm = document.createElement("span");
         lettreElm.innerHTML = e;
-        lettreElm.style.animationDelay = `${i*0.2}s`;
+        lettreElm.style.animationDelay = `${Math.atan(i*(i/100))}s`;
         conteneurLettre.appendChild(lettreElm);
         
        }
