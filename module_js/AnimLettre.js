@@ -33,6 +33,7 @@ export class AnimLettre {
         let lettreElm = document.createElement("span");
         lettreElm.innerHTML = e;
         lettreElm.style.animationDelay = `${Math.atan(i*(i/100))}s`;
+        lettreElm.style.boxShadow = "4px -3px 79px 0px rgba(0,0,0,0.75)";
         conteneurLettre.appendChild(lettreElm);
         
        }
