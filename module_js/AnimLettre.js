@@ -27,7 +27,7 @@ export class AnimLettre {
        const nbLettres = lettre.length;
        let conteneurLettre = document.createElement("span");
         conteneurLettre.classList.add("mot");
-        let i = 0;
+        let i = 1;
        for (let e of lettre){
            i++;
         let lettreElm = document.createElement("span");
