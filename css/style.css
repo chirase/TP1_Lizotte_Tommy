@@ -727,6 +727,34 @@ a:hover, a:active {
   }
 }
 
+.sidebarAnim {
+  background-color: red;
+  -webkit-animation-name: hauteur;
+          animation-name: hauteur;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes hauteur {
+  from {
+    height: 1vh;
+  }
+  to {
+    height: 75vh;
+  }
+}
+
+@keyframes hauteur {
+  from {
+    height: 1vh;
+  }
+  to {
+    height: 75vh;
+  }
+}
+
 /*--------------------------------------------------------------
 # layout
 --------------------------------------------------------------*/
@@ -839,6 +867,7 @@ body {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
+  text-align: center;
 }
 
 .footer {

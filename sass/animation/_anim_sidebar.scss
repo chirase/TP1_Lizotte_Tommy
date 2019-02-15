@@ -1,0 +1,16 @@
+.sidebarAnim{
+background-color:red;
+animation-name: hauteur;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+
+@keyframes hauteur{
+    from{
+        height: 1vh;
+    }
+
+    to {
+        height: 75vh;
+    }
+}

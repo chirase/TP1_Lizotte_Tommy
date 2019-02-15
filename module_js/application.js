@@ -18,7 +18,7 @@ let intro = new Introduction(contenuIntro, elmHeader, animationLettre)
 function animationLettre() {
     /* Une fois que l'animation des mots est terminé la fonction animLettre s'exécutera */
     console.log('debut animation lettre')
-    const lesLettres = 'Veille-technologique'
+    const lesLettres = 'TP1:Veille-technologique'
     let  monAnimLettre = new AnimLettre(lesLettres, elmHeader, finAnim)	
 }
 

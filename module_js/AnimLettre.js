@@ -28,6 +28,8 @@ export class AnimLettre {
        let conteneurLettre = document.createElement("span");
         conteneurLettre.classList.add("mot");
         let i = 0;
+
+        let dernierElement;
        for (let e of lettre){
            i++;
         let lettreElm = document.createElement("span");
@@ -35,8 +37,16 @@ export class AnimLettre {
         lettreElm.style.animationDelay = `${Math.atan(i*(i/100))}s`;
         lettreElm.style.boxShadow = "4px -3px 79px 0px rgba(0,0,0,0.75)";
         conteneurLettre.appendChild(lettreElm);
-        
+        dernierElement = lettreElm;
        }
+       dernierElement.addEventListener("animationend", function(){
+        let barre1 = document.getElementsByClassName("sidebar")[0];
+        let barre2 = document.getElementsByClassName("sidebar2")[0];
+
+        barre1.classList.add("sidebarAnim");
+        barre2.classList.add("sidebarAnim");
+
+    });
 
        elementParent.appendChild(conteneurLettre);
 
