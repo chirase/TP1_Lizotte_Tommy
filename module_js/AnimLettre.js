@@ -46,6 +46,16 @@ export class AnimLettre {
         barre1.classList.add("sidebarAnim");
         barre2.classList.add("sidebarAnim");
 
+        barre1.addEventListener("animationend",function(){
+            barre1.classList.add("fadeSpecial");
+        });
+
+        barre2.addEventListener("animationend",function(){
+            barre2.classList.add("fadeSpecial");
+
+        });
+      
+        
     });
 
        elementParent.appendChild(conteneurLettre);

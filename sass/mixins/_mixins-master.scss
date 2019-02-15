@@ -11,19 +11,19 @@
 	margin-right: auto;
 }
 
-// Clearfix
-@mixin clearfix() {
-	content: "";
-	display: table;
-	table-layout: fixed;
-}
 
-// Clear after (not all clearfix need this also)
-@mixin clearfix-after() {
-	clear: both;
-}
+
 
 // Column width with margin
 @mixin column-width($numberColumns: 3) {
 	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+}
+
+//Paramètres d'animation par défaut
+
+@mixin animParams($animName){
+	 animation-duration: 2s;
+	 animation-direction: normal;
+	 animation-iteration-count: infinite;
+	 animation-name: $animName;
 }

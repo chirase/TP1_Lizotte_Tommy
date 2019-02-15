@@ -1,0 +1,19 @@
+.fadeSpecial{ 
+     @include animParams(fadeSpec);
+     height: 75vh;
+
+}
+
+@keyframes fadeSpec{
+    from{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}

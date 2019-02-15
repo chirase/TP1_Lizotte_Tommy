@@ -755,6 +755,42 @@ a:hover, a:active {
   }
 }
 
+.fadeSpecial {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: fadeSpec;
+          animation-name: fadeSpec;
+  height: 75vh;
+}
+
+@-webkit-keyframes fadeSpec {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeSpec {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 /*--------------------------------------------------------------
 # layout
 --------------------------------------------------------------*/
