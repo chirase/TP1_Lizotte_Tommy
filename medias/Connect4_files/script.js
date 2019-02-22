@@ -834,6 +834,7 @@ function updateTable() {
         if (aRonds[i].etat == 256) {
             document.getElementsByTagName("td")[i].style.backgroundColor = "#0B3B0B";
         }
+        
         if (aRonds[i].etat == 512) {
             document.getElementsByTagName("td")[i].style.backgroundColor = "#0B4C5F";
         }

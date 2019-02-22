@@ -65,6 +65,8 @@ export class Introduction {
         let refTerminerIntro = this.terminerIntro.bind(this)
         elmBouton.addEventListener('mousedown', this.terminerIntro.bind(this))
     }
+    
+    
 
     creerElement(elmParent, balise, contenu, classCSS) {
         console.log(balise)
