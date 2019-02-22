@@ -56,6 +56,12 @@ export class AnimLettre {
             document.createElement("iframe")
             );
             document.body.querySelector("section").querySelector("iframe").setAttribute("src","medias/Connect4.html");
+            document.body.querySelector("section").querySelector("iframe").style.width = "100%";
+            document.body.querySelector("section").querySelector("iframe").style.height = "100%";
+            document.body.querySelector("section").querySelector("iframe").style.overflow = "hidden";
+            document.body.querySelector("section").querySelector("iframe").querySelectorAll("table")[1].style.display = "none";
+            
+
         });
       
         
