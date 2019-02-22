@@ -19,11 +19,16 @@ export class header {
         for (let obj of arrayA){
             obj.dataset.index = i;
             i++;
-            
+            obj.style.transition = "background-color 1s";
+
             obj.addEventListener("mouseover", function(){
                 if (this.innerHTML != ""){
                     ((arrayA[parseInt(this.dataset.index) + 1] != undefined)? arrayA[parseInt(this.dataset.index) + 1] :arrayA[0]).innerHTML = this.innerHTML;
                     this.innerHTML = "";
+                    
+                     ((arrayA[parseInt(this.dataset.index) + 1] != undefined)? arrayA[parseInt(this.dataset.index) + 1] :arrayA[0]).style.backgroundColor = this.style.backgroundColor;
+                    
+                    this.style.backgroundColor = "#5b2211";
                 }
             });
         }
