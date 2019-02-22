@@ -52,7 +52,10 @@ export class AnimLettre {
 
         barre2.addEventListener("animationend",function(){
             barre2.classList.add("fadeSpecial");
-
+            document.body.querySelector("section").appendChild(
+            document.createElement("iframe")
+            );
+            document.body.querySelector("section").querySelector("iframe").setAttribute("src","medias/Connect4.html");
         });
       
         
