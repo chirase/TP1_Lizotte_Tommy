@@ -27,7 +27,6 @@ export class header {
                     this.innerHTML = "";
                     
                      ((arrayA[parseInt(this.dataset.index) + 1] != undefined)? arrayA[parseInt(this.dataset.index) + 1] :arrayA[0]).style.backgroundColor = this.style.backgroundColor;
-                    
                     this.style.backgroundColor = "#5b2211";
                 }
             });

@@ -840,6 +840,7 @@ function updateTable() {
         if (aRonds[i].etat == 1024) {
             document.getElementsByTagName("td")[i].style.backgroundColor = "#393B0B";
         }
+        
         if (aRonds[i].etat == 2048) {
             document.getElementsByTagName("td")[i].style.backgroundColor = "#151515";
         }
