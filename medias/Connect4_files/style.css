@@ -2,7 +2,33 @@
   color: gray;
 }
 
-table{border-collapse: collapse;}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+table{border-collapse: collapse;
+margin: 0 auto;
+    margin-top: 10%;
+    width: 50%;
+    height: 350px;
+    min-width: 300px;
+    max-width: 350px;
+}
+p{
+    color:white;
+    font-weight: bold;
+    font-size:2em;
+    
+}
+
+button{
+    width: 20%;
+    max-width: 300px;
+}
 
 table:last-child{
     display: none;
@@ -10,8 +36,7 @@ table:last-child{
 
 td{
     border:1px solid black;
-    width:150px;
-    height:150px;
+  
     text-align: center;
     color:white;
     font-size:55px;
