@@ -41,8 +41,7 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
 	 ========================================================================== */
@@ -50,8 +49,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -59,8 +57,7 @@ body {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
 	 ========================================================================== */
@@ -69,14 +66,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -86,8 +81,7 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
 	 ========================================================================== */
@@ -95,8 +89,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -107,18 +100,15 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-  /* 2 */
-}
+  text-decoration: underline dotted;
+  /* 2 */ }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -130,15 +120,13 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -149,16 +137,13 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
 	 ========================================================================== */
@@ -166,8 +151,7 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /* Forms
 	 ========================================================================== */
@@ -187,8 +171,7 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
@@ -197,8 +180,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -207,8 +189,7 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
@@ -217,8 +198,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
-}
+  -webkit-appearance: button; }
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -228,8 +208,7 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
@@ -238,15 +217,13 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -255,8 +232,7 @@ fieldset {
  *		`fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -267,22 +243,19 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10.
@@ -290,20 +263,17 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -313,15 +283,13 @@ textarea {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -331,8 +299,7 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
 	 ========================================================================== */
@@ -340,15 +307,13 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Misc
 	 ========================================================================== */
@@ -356,15 +321,13 @@ summary {
  * Add the correct display in IE 10+.
  */
 template {
-  display: none;
-}
+  display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /*--------------------------------------------------------------
 # Typography
@@ -379,28 +342,22 @@ textarea {
   font-family: "Roboto", arial, sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.5;
-}
+  line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
-  clear: both;
-}
+  clear: both; }
 
 p {
-  margin-bottom: 1.5em;
-}
+  margin-bottom: 1.5em; }
 
 dfn, cite, em, i {
-  font-style: italic;
-}
+  font-style: italic; }
 
 blockquote {
-  margin: 0 1.5em;
-}
+  margin: 0 1.5em; }
 
 address {
-  margin: 0 0 1.5em;
-}
+  margin: 0 0 1.5em; }
 
 pre {
   background: #eee;
@@ -411,28 +368,23 @@ pre {
   margin-bottom: 1.6em;
   max-width: 100%;
   overflow: auto;
-  padding: 1.6em;
-}
+  padding: 1.6em; }
 
 code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
-  font-size: 0.9375rem;
-}
+  font-size: 0.9375rem; }
 
 abbr, acronym {
   border-bottom: 1px dotted #666;
-  cursor: help;
-}
+  cursor: help; }
 
 mark, ins {
   background: #fff9c0;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 big {
-  font-size: 125%;
-}
+  font-size: 125%; }
 
 /*--------------------------------------------------------------
 
@@ -443,24 +395,15 @@ big {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #7a968d;
-}
-
-a:visited {
-  color: #1d215f;
-}
-
-a:hover, a:focus, a:active {
-  color: #197056;
-}
-
-a:focus {
-  outline: thin dotted;
-}
-
-a:hover, a:active {
-  outline: 0;
-}
+  color: #7a968d; }
+  a:visited {
+    color: #1d215f; }
+  a:hover, a:focus, a:active {
+    color: #197056; }
+  a:focus {
+    outline: thin dotted; }
+  a:hover, a:active {
+    outline: 0; }
 
 /*--------------------------------------------------------------
 ## Menus
@@ -470,45 +413,29 @@ a:hover, a:active {
   color: white;
   border-bottom: 1px solid white;
   font-size: 1rem;
-  padding: 0.5rem;
-}
+  padding: 0.5rem; }
 
 .menu a:first-child {
-  border-top: 1px solid white;
-}
+  border-top: 1px solid white; }
 
 /*--------------------------------------------------------------
 # Animation introduction
 --------------------------------------------------------------*/
 .introduction {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100vw;
-}
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw; }
 
 .rectangle {
   min-height: 2em;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   /*Propriété comme itemFlex*/
   /* boîtes non flexibles du 1/3 de la largeur de son parent */
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 50%;
-          flex: 1 0 50%;
-}
+  flex: 1 0 50%; }
 
 /* À COMPLÉTER - Caractéristiques de chaque rectangle de l'intro...
    ========================================================================== */
@@ -516,281 +443,105 @@ a:hover, a:active {
 .rectangle:last-of-type {
   /* Le 1er et le dernier rectangle sont centrés sur une seule ligne...*/
   width: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 100%;
-          flex: 1 0 100%;
-}
+  flex: 1 0 100%; }
 
 .rectangle:nth-child(1) {
   background-color: #e54792;
-  -webkit-animation: anim1 0.5s;
-          animation: anim1 0.5s;
-}
+  animation: anim1 0.5s; }
 
 .rectangle:nth-child(2) {
   background-color: #f59723;
-  -webkit-animation: anim2 0.5s 0.5s backwards;
-          animation: anim2 0.5s 0.5s backwards;
-}
+  animation: anim2 0.5s 0.5s backwards; }
 
 .rectangle:nth-child(3) {
   background-color: #58b34c;
-  -webkit-animation: anim3 0.5s 1s backwards;
-          animation: anim3 0.5s 1s backwards;
-}
+  animation: anim3 0.5s 1s backwards; }
 
 .rectangle:nth-child(4) {
   background-color: #006d98;
   font-size: 1em;
   /* max-height : 20vh;*/
-  -webkit-animation: animGo 1s 1.5s backwards;
-          animation: animGo 1s 1.5s backwards;
-}
+  animation: animGo 1s 1.5s backwards; }
 
 .deplacementContenuIntro {
-  -webkit-animation: deplacementContenuIntro 1s backwards;
-          animation: deplacementContenuIntro 1s backwards;
-}
-
-@-webkit-keyframes anim1 {
-  from {
-    -webkit-transform: translateY(-50vh) rotate(-45deg);
-            transform: translateY(-50vh) rotate(-45deg);
-  }
-  to {
-    -webkit-transform: translateY(0%) rotate(0);
-            transform: translateY(0%) rotate(0);
-  }
-}
+  animation: deplacementContenuIntro 1s backwards; }
 
 @keyframes anim1 {
   from {
-    -webkit-transform: translateY(-50vh) rotate(-45deg);
-            transform: translateY(-50vh) rotate(-45deg);
-  }
+    transform: translateY(-50vh) rotate(-45deg); }
   to {
-    -webkit-transform: translateY(0%) rotate(0);
-            transform: translateY(0%) rotate(0);
-  }
-}
-
-@-webkit-keyframes anim2 {
-  from {
-    -webkit-transform: translateX(-200%) rotate(-45deg);
-            transform: translateX(-200%) rotate(-45deg);
-  }
-  to {
-    -webkit-transform: translateX(0%) rotate(0);
-            transform: translateX(0%) rotate(0);
-  }
-}
-
+    transform: translateY(0%) rotate(0); } }
 @keyframes anim2 {
   from {
-    -webkit-transform: translateX(-200%) rotate(-45deg);
-            transform: translateX(-200%) rotate(-45deg);
-  }
+    transform: translateX(-200%) rotate(-45deg); }
   to {
-    -webkit-transform: translateX(0%) rotate(0);
-            transform: translateX(0%) rotate(0);
-  }
-}
-
-@-webkit-keyframes anim3 {
-  from {
-    -webkit-transform: translateX(200%) rotate(-45deg);
-            transform: translateX(200%) rotate(-45deg);
-  }
-  to {
-    -webkit-transform: translateX(0%) rotate(0);
-            transform: translateX(0%) rotate(0);
-  }
-}
-
+    transform: translateX(0%) rotate(0); } }
 @keyframes anim3 {
   from {
-    -webkit-transform: translateX(200%) rotate(-45deg);
-            transform: translateX(200%) rotate(-45deg);
-  }
+    transform: translateX(200%) rotate(-45deg); }
   to {
-    -webkit-transform: translateX(0%) rotate(0);
-            transform: translateX(0%) rotate(0);
-  }
-}
-
-@-webkit-keyframes animGo {
-  from {
-    -webkit-transform: translateY(200vh) rotate(-45deg);
-            transform: translateY(200vh) rotate(-45deg);
-  }
-  50%,
-  to {
-    -webkit-transform: translateY(0%) rotate(0);
-            transform: translateY(0%) rotate(0);
-  }
-}
-
+    transform: translateX(0%) rotate(0); } }
 @keyframes animGo {
   from {
-    -webkit-transform: translateY(200vh) rotate(-45deg);
-            transform: translateY(200vh) rotate(-45deg);
-  }
+    transform: translateY(200vh) rotate(-45deg); }
   50%,
-  to {
-    -webkit-transform: translateY(0%) rotate(0);
-            transform: translateY(0%) rotate(0);
-  }
-}
-
-@-webkit-keyframes deplacementContenuIntro {
-  from {
-    -webkit-transform: translateX(0vw);
-            transform: translateX(0vw);
-  }
-  to {
-    -webkit-transform: translateX(-100vw);
-            transform: translateX(-100vw);
-  }
-}
-
+    to {
+    transform: translateY(0%) rotate(0); } }
 @keyframes deplacementContenuIntro {
   from {
-    -webkit-transform: translateX(0vw);
-            transform: translateX(0vw);
-  }
+    transform: translateX(0vw); }
   to {
-    -webkit-transform: translateX(-100vw);
-            transform: translateX(-100vw);
-  }
-}
-
+    transform: translateX(-100vw); } }
 /*--------------------------------------------------------------
 # Animation des lettres
 --------------------------------------------------------------*/
 .mot {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+  display: flex; }
 
 .mot > span {
   font-size: 9vw;
-  text-shadow: 6px 2px 6px rgba(0, 0, 0, 0.7);
-}
+  text-shadow: 6px 2px 6px rgba(0, 0, 0, 0.7); }
 
 .mot:nth-child(1) > span {
-  -webkit-animation: animationLettre 1s both;
-          animation: animationLettre 1s both;
-}
-
-@-webkit-keyframes animationLettre {
-  from {
-    /* opacity:  0; */
-    -webkit-transform: translateY(-75vw) rotate(180deg) scale(1);
-            transform: translateY(-75vw) rotate(180deg) scale(1);
-    -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
-            animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
-  }
-  50% {
-    /* opacity:  .5; */
-    -webkit-transform: translateY(30vw) rotate(180deg) scale(1.5);
-            transform: translateY(30vw) rotate(180deg) scale(1.5);
-    -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
-            animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
-  }
-  to {
-    /* opacity:  1; */
-    -webkit-transform: translateY(0%) rotate(0deg) scale(1);
-            transform: translateY(0%) rotate(0deg) scale(1);
-  }
-}
+  animation: animationLettre 1s both; }
 
 @keyframes animationLettre {
   from {
     /* opacity:  0; */
-    -webkit-transform: translateY(-75vw) rotate(180deg) scale(1);
-            transform: translateY(-75vw) rotate(180deg) scale(1);
-    -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
-            animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
-  }
+    transform: translateY(-75vw) rotate(180deg) scale(1);
+    animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19); }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateY(30vw) rotate(180deg) scale(1.5);
-            transform: translateY(30vw) rotate(180deg) scale(1.5);
-    -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
-            animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
-  }
+    transform: translateY(30vw) rotate(180deg) scale(1.5);
+    animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01); }
   to {
     /* opacity:  1; */
-    -webkit-transform: translateY(0%) rotate(0deg) scale(1);
-            transform: translateY(0%) rotate(0deg) scale(1);
-  }
-}
-
+    transform: translateY(0%) rotate(0deg) scale(1); } }
 .sidebarAnim {
   background-color: red;
-  -webkit-animation-name: hauteur;
-          animation-name: hauteur;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes hauteur {
-  from {
-    height: 1vh;
-  }
-  to {
-    height: 75vh;
-  }
-}
+  animation-name: hauteur;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
 
 @keyframes hauteur {
   from {
-    height: 1vh;
-  }
+    height: 1vh; }
   to {
-    height: 75vh;
-  }
-}
-
+    height: 75vh; } }
 .fadeSpecial {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-name: fadeSpec;
-          animation-name: fadeSpec;
-  height: 75vh;
-}
-
-@-webkit-keyframes fadeSpec {
-  from {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-name: fadeSpec;
+  height: 75vh; }
 
 @keyframes fadeSpec {
   from {
-    opacity: 0;
-  }
+    opacity: 0; }
   50% {
-    opacity: 1;
-  }
+    opacity: 1; }
   to {
-    opacity: 0;
-  }
-}
-
+    opacity: 0; } }
 /*--------------------------------------------------------------
 # layout
 --------------------------------------------------------------*/
@@ -798,38 +549,22 @@ body {
   max-width: 100vw;
   min-height: 100vh;
   /*Conteneur flex en colonne*/
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
+  flex-direction: column; }
 
 .global {
   max-width: 100vw;
   /*Propriété comme item flex*/
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 100%;
-          flex: 1 0 100%;
+  flex: 1 0 100%;
   /*Conteneur flex en rangée*/
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   /*Poussée vers la gauche pour ne pas voir le menu*/
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  transform: translateX(-100%);
   /*Effet de transition sur la transformation*/
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
-  /*	overflow-x: hidden; */
-}
+  /*	overflow-x: hidden; */ }
 
 .boutonBurger {
-  background: -webkit-gradient(linear, left top, left bottom, from(#E84545), color-stop(20%, #E84545), color-stop(20%, transparent), color-stop(40%, transparent), color-stop(40%, #E84545), color-stop(60%, #E84545), color-stop(60%, transparent), color-stop(80%, transparent), color-stop(80%, #E84545), to(#E84545));
   background: linear-gradient(to bottom, #E84545 0%, #E84545 20%, transparent 20%, transparent 40%, #E84545 40%, #E84545 60%, transparent 60%, transparent 80%, #E84545 80%, #E84545 100%);
   height: 48px;
   width: 48px;
@@ -837,11 +572,7 @@ body {
   display: inline-block;
   cursor: pointer;
   /*Effet de transition sur la rotation*/
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
-}
+  transition: transform 1s; }
 
 .menu {
   background-color: #8d4b4b;
@@ -849,170 +580,107 @@ body {
   /*Pour cet exemple, on fixe la largeur du menu à 100% ou 100vw*/
   width: 100vw;
   /*Propriété comme item flex - ne peut rétrécir*/
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 100%;
-          flex: 1 0 100%;
+  flex: 1 0 100%;
   /*Contexte flex en colonne pour ses enfants*/
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   overflow-x: hidden;
-  overflow-y: auto;
-}
+  overflow-y: auto; }
 
 #chkBoutonBurger:checked ~ .global {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-}
+  transform: translateX(0%); }
 
 #chkBoutonBurger:checked ~ .boutonBurger {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
+  transform: rotate(90deg); }
 
 #chkBoutonBurger {
-  display: none;
-}
+  display: none; }
 
 .sidebar {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: sidebar;
-}
+  grid-area: sidebar; }
 
 .sidebar2 {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  grid-area: sidebar2;
-}
+  grid-area: sidebar2; }
 
 .content {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: content;
-}
+  grid-area: content; }
 
 .header {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: header;
-  text-align: center;
-}
+  text-align: center; }
 
 .footer {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  grid-area: footer;
-}
+  grid-area: footer; }
 
 .conteneur {
   background-color: #fff;
-  color: #444;
-}
+  color: #444; }
 
 /* conteneur est un élément flex et en même temps un conteneur grid */
 .conteneur {
   /*Sa largeur est fixée à 100%*/
   width: 100vw;
   /*Propriété comme item flex - ne peut rétrécir*/
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 100%;
-          flex: 1 0 100%;
+  flex: 1 0 100%;
   /*Conteneur flex en colonne pour ses enfants*/
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+  flex-flow: column nowrap;
   overflow-x: hidden;
   overflow-y: auto;
-  display: -ms-grid;
   display: grid;
   width: 100vw;
   grid-gap: 1em;
-      grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer";
-}
+  grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer"; }
 
 @media only screen and (min-width: 500px) {
   .conteneur {
-    -ms-grid-columns: 20% auto;
-        grid-template-columns: 20% auto;
-        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
-    min-width: 500px;
-  }
-}
-
+    grid-template-columns: 20% auto;
+    grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
+    min-width: 500px; } }
 @media only screen and (min-width: 900px) {
   .boutonBurger {
-    display: none;
-  }
+    display: none; }
+
   .global {
     /* Placer à sa potition d'origine */
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    transform: translateX(0%);
     /*Mettre le contenu en colonne*/
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+    flex-direction: column; }
+
   .menu {
     /*Propriété comme item flex - ne peut s'étirer en hauteur*/
     width: 96vw;
     margin-bottom: 10px;
     border-radius: 10px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     /*Affichage du menu en rangée*/
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .menu a {
-    border: none;
-    border-left: 1px solid white;
-    /*Propriété comme item flex - peut s'étirer en largeur*/
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 auto;
-            flex: 1 0 auto;
-  }
-  .menu a:first-child {
-    border-top: none;
-  }
+    flex-direction: row;
+    justify-content: space-between; }
+    .menu a {
+      border: none;
+      border-left: 1px solid white;
+      /*Propriété comme item flex - peut s'étirer en largeur*/
+      flex: 1 0 auto; }
+      .menu a:first-child {
+        border-top: none; }
+
   .conteneur {
     grid-gap: 20px;
-    -ms-grid-columns: 120px auto 120px;
-        grid-template-columns: 120px auto 120px;
-        grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
-    max-width: 100%;
-  }
-}
-
+    grid-template-columns: 120px auto 120px;
+    grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
+    max-width: 100%; } }
 .box {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
-  font-size: 150%;
-}
+  font-size: 150%; }
 
 .header,
 .footer {
-  background-color: #999;
-}
+  background-color: #999; }
 
 .sidebar2 {
   background-color: #ccc;
-  color: #444;
-}
+  color: #444; }
+
 /*# sourceMappingURL=style.css.map */
